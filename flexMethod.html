@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer | Flex</title>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+
+      font-family: sans-serif;
+      color: #eee;
+      background-color: #333;
+      font-size: 24px;
+    }
+    html, body {
+      height: 100%;
+    }
+    .wrapper {
+      min-height: 100%;
+      /* Flex */
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      background-color: #009ef3;
+      padding: 15px;
+      text-align: center;
+    }
+    .main {
+      padding: 15px;
+      text-align: center;
+      /* Flex */
+      flex: 1 1 auto;
+    }
+    .footer {
+      padding: 15px;
+      text-align: center;
+      background-color: #ff7b50;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>HEADER</h1>
+    </header>
+    <main class="main">
+      <h1>MAIN CONTENT</h1>
+    </main>
+    <footer class="footer">
+      <h1>FOOTER</h1>
+    </footer>
+  </div>
+</body>
+</html>
